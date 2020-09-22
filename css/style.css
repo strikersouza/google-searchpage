@@ -24,6 +24,26 @@ nav a:hover{
     text-decoration: underline;
 }
 
+nav .left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+nav .left img{
+    flex: 1; 
+}
+
+nav .left input[type=text]{
+    flex: 5; 
+}
+
+nav .left img{
+    width: 100px;
+    height: 30px;
+}
+
 nav input[type=button]{
     padding: 10px;
     border: none;
@@ -36,15 +56,33 @@ nav input[type=button]{
 }
 
 main{
-    text-align: center;
-    margin: 0 auto;
-    padding: 200px 0;
+    margin: 0 10%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
     max-width: 640px;
     min-height: calc(100vh - 135px);
+}
+
+.links{
+    margin-top: -1%;
+    margin-bottom: 5px;
+    margin-left: 10%;
+}
+
+.links a{
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.links span{
+    padding:0 35px;
+}
+
+hr{
+    border: 1px solid #cecece;
 }
 
 input[type=text]{
