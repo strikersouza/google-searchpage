@@ -56,11 +56,42 @@ nav input[type=button]{
 }
 
 main{
-    margin: 0 10%;
+    margin: 1% 11%;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 640px;
     min-height: calc(100vh - 135px);
+}
+
+.result a{
+    font-size: 1.3em;
+    color: #1A14C0;
+    text-decoration: none;
+}
+
+.result a:hover{
+    text-decoration: underline;
+}
+
+.result-links a{
+    font-size: 1em;
+    padding-right: 10px;
+}
+
+.result p{
+    padding: 5px 0;
+    font-size: 0.9em;
+}
+
+.result span{
+    color: #5F6368;
+}
+
+.search-numbers{
+    color: #788192;
+    margin-bottom: 1%;
 }
 
 .links{
@@ -117,7 +148,7 @@ footer{
     border-bottom: none;
     border-top: 1px solid #cecece;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 20px 10.5%;
 }
 
 footer a{
